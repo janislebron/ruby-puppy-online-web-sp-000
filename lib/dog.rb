@@ -14,10 +14,6 @@ attr_accessor :name
     end
   end
 
-  def self.print_all
-    puts @@all
-  end
-
   def self.clear_all
      @@all = [];
   end
